@@ -7,6 +7,57 @@ st.set_page_config(page_title="Football Analytics Suite", layout="wide")
 st.title("Football Analytics Suite")
 st.caption("Module 5 multipage app")
 
+st.html(
+    """
+        <style>
+            .suite-hero {
+                padding: 1rem 1.1rem;
+                border-radius: 14px;
+                background: linear-gradient(120deg, #eaf4ff 0%, #f8f4ff 100%);
+                border: 1px solid #dbe6f3;
+                margin-bottom: 0.9rem;
+            }
+            .suite-hero h3 {
+                margin: 0 0 0.3rem 0;
+                color: #12385b;
+                font-size: 1.1rem;
+            }
+            .suite-hero p {
+                margin: 0;
+                color: #35526d;
+                font-size: 0.95rem;
+            }
+            .suite-tags {
+                margin-top: 0.6rem;
+                display: flex;
+                gap: 0.45rem;
+                flex-wrap: wrap;
+            }
+            .suite-tag {
+                font-size: 0.78rem;
+                background: #ffffff;
+                border: 1px solid #d7e3ef;
+                color: #244967;
+                border-radius: 999px;
+                padding: 0.2rem 0.55rem;
+            }
+        </style>
+
+        <section class="suite-hero">
+            <h3>Welcome to the Football Analytics Suite</h3>
+            <p>
+                Explore team performance, match-level context, scouting filters, and xG simulation
+                in one guided app flow.
+            </p>
+            <div class="suite-tags">
+                <span class="suite-tag">Match Analysis</span>
+                <span class="suite-tag">Scouting</span>
+                <span class="suite-tag">xG Lab</span>
+            </div>
+        </section>
+        """
+)
+
 if "selected_team" not in st.session_state:
     st.session_state.selected_team = "Demo FC"
 
