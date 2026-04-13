@@ -1,4 +1,4 @@
-# Module 5: Expected Goals (xG) Lab
+# Module 4: Expected Goals (xG) Lab
 
 ## Learning Goals
 - Build a simple xG model demo with logistic regression
@@ -8,7 +8,7 @@
 ## Build
 Run:
 ```bash
-streamlit run apps/05_xg_lab.py
+streamlit run apps/04_xg_lab.py
 ```
 
 ## Modeling Scope
@@ -58,4 +58,4 @@ model = Pipeline([
 - Shot context (pressure, defensive shape) is mostly absent in simple demos.
 
 ## Next Module
-Go to [06-multipage-football-app.md](./06-multipage-football-app.md).
+Go to [05-multipage-football-app.md](./05-multipage-football-app.md).

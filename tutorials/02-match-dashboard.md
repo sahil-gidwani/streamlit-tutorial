@@ -1,4 +1,4 @@
-# Module 3: Match Dashboard (Coach-Facing View)
+# Module 2: Match Dashboard (Coach-Facing View)
 
 ## Learning Goals
 - Build a tactical match summary page
@@ -8,7 +8,7 @@
 ## Build
 Run:
 ```bash
-streamlit run apps/03_match_dashboard.py
+streamlit run apps/02_match_dashboard.py
 ```
 
 ## Dashboard Blueprint
@@ -38,8 +38,8 @@ col4.metric("Pass Completion", f"{pass_completion:.1f}%")
 3. Add rolling 5-minute xG momentum chart.
 4. Add a short "three takeaways" auto-summary panel.
 
-## Demo Script Prompt
+## Interpretation Prompt
 "This dashboard lets staff quickly separate process from scoreline. If the result was poor but xG process was strong, tactical adjustments may be incremental rather than structural."
 
 ## Next Module
-Proceed to [04-player-scouting-dashboard.md](./04-player-scouting-dashboard.md).
+Proceed to [03-player-scouting-dashboard.md](./03-player-scouting-dashboard.md).

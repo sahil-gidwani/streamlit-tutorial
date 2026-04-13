@@ -7,7 +7,7 @@ from common import load_players
 
 st.set_page_config(page_title="Player Scouting", layout="wide")
 st.title("Player Scouting Dashboard")
-st.caption("Module 4 demo app")
+st.caption("Module 3 app")
 
 players = load_players()
 

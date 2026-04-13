@@ -1,4 +1,4 @@
-# Module 4: Player Scouting Dashboard
+# Module 3: Player Scouting Dashboard
 
 ## Learning Goals
 - Build role-aware player comparison views
@@ -8,7 +8,7 @@
 ## Build
 Run:
 ```bash
-streamlit run apps/04_player_scout.py
+streamlit run apps/03_player_scout.py
 ```
 
 ## Product Framing
@@ -43,4 +43,4 @@ for c in metric_cols:
 4. Add a downloadable shortlist report.
 
 ## Next Module
-Continue to [05-expected-goals-lab.md](./05-expected-goals-lab.md).
+Continue to [04-expected-goals-lab.md](./04-expected-goals-lab.md).

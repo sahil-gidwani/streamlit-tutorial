@@ -7,7 +7,7 @@ from common import load_events, load_matches
 
 st.set_page_config(page_title="Match Dashboard", layout="wide")
 st.title("Match Dashboard")
-st.caption("Module 3 demo app")
+st.caption("Module 2 app")
 
 matches = load_matches().sort_values("date")
 events = load_events()

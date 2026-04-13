@@ -1,4 +1,4 @@
-# Module 8: Capstone and Extensions
+# Module 7: Capstone and Extensions
 
 ## Capstone Goal
 Deliver a coherent football analytics product demo that includes:

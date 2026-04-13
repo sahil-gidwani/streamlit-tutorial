@@ -3,7 +3,7 @@
 This repository contains a complete, demo-ready Streamlit learning path focused on football analytics use cases.
 
 ## What You Get
-- An ordered 8-module tutorial series in markdown
+- An ordered 7-module tutorial series in markdown
 - Runnable Streamlit apps mapped to each module
 - Sample football datasets for reliable demo execution
 - Curated docs, articles, and video links
@@ -11,7 +11,8 @@ This repository contains a complete, demo-ready Streamlit learning path focused 
 
 ## Repository Structure
 - `tutorials/` detailed learning modules and resources
-- `apps/` standalone and multipage Streamlit demo apps
+- `apps/` standalone Streamlit apps for Modules 1-4
+- `suite/` dedicated multipage Streamlit app (Home + pages)
 - `data/` sample match, event, and player data
 - `skills/` local copy of agent skills for experimentation/reference
 - `requirements.txt` pinned dependencies for reproducibility
@@ -29,11 +30,10 @@ streamlit run apps/01_hello_football.py
 
 ## Run Apps by Module
 - Module 1: `streamlit run apps/01_hello_football.py`
-- Module 2: `streamlit run apps/02_data_explorer.py`
-- Module 3: `streamlit run apps/03_match_dashboard.py`
-- Module 4: `streamlit run apps/04_player_scout.py`
-- Module 5: `streamlit run apps/05_xg_lab.py`
-- Module 6+: `streamlit run apps/Home.py`
+- Module 2: `streamlit run apps/02_match_dashboard.py`
+- Module 3: `streamlit run apps/03_player_scout.py`
+- Module 4: `streamlit run apps/04_xg_lab.py`
+- Module 5+: `streamlit run suite/Home.py`
 
 ## Core Learning Resources
 - Streamlit tutorials: https://docs.streamlit.io/develop/tutorials

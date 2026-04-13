@@ -5,7 +5,7 @@ from common import load_events, load_matches, load_players
 
 st.set_page_config(page_title="Football Analytics Suite", layout="wide")
 st.title("Football Analytics Suite")
-st.caption("Module 6 multipage app")
+st.caption("Module 5 multipage app")
 
 if "selected_team" not in st.session_state:
     st.session_state.selected_team = "Demo FC"

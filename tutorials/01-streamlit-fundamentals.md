@@ -48,7 +48,7 @@ st.line_chart(df.set_index("matchday")["xg_for"])
 3. Add a tab for "Raw Match Data" and another for "Trend View".
 4. Add a `st.download_button` for CSV export.
 
-## Discussion Prompts for Demo Audience
+## Discussion Prompts
 - Why xG is better than just goals for short-term performance tracking
 - How interactive filters reduce back-and-forth with coaching staff
 
@@ -58,4 +58,4 @@ st.line_chart(df.set_index("matchday")["xg_for"])
 - KPI cards remain readable on laptop projector resolution
 
 ## Next Module
-Continue with [02-data-ingestion-and-cleaning.md](./02-data-ingestion-and-cleaning.md) to load and normalize football event data.
+Continue with [02-match-dashboard.md](./02-match-dashboard.md) to build your first match analysis dashboard.

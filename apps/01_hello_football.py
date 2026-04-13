@@ -55,9 +55,9 @@ left.line_chart(trend["xg_for"])
 right.subheader("Quick Notes")
 right.markdown(
     """
-- Use this as your opening slide app.
-- Shows Streamlit rerun + sidebar filtering.
-- Keep KPIs simple for first stakeholder touchpoint.
+- Use the sidebar to switch teams and compare trends.
+- KPI cards summarize outcomes and chance creation.
+- The table below provides match-level context.
 """
 )
 

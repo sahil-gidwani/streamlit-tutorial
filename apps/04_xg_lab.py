@@ -13,7 +13,7 @@ from common import load_events
 
 st.set_page_config(page_title="xG Lab", layout="wide")
 st.title("Expected Goals (xG) Lab")
-st.caption("Module 5 demo app")
+st.caption("Module 4 app")
 
 events = load_events().copy()
 model_df = events[["distance", "angle", "body_part", "play_type", "is_goal"]].dropna()
