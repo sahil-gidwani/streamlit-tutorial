@@ -1,0 +1,11 @@
+player,team,position,league,age,minutes,shots,key_passes,progressive_passes,tackles_won,xg,xa
+Alex Cole,Demo FC,ST,Demo League,24,2100,78,22,35,11,14.3,4.8
+Noah Reed,Demo FC,AM,Demo League,26,1980,55,44,58,19,10.1,8.6
+Ryan Vale,Demo FC,WG,Demo League,22,1760,49,31,41,14,8.3,5.1
+Leo Finn,Metro City,ST,Demo League,27,2200,72,19,29,9,13.4,3.2
+Tom Wren,Highland SC,ST,Demo League,29,2040,69,16,24,8,12.6,2.7
+Sam Holt,Capital Rovers,ST,Demo League,25,1900,61,21,26,10,11.7,3.8
+Liam Hart,Rival United,WG,Demo League,23,1850,52,29,46,15,9.0,5.5
+Ethan Shaw,Rival United,AM,Demo League,28,2010,47,36,52,21,7.9,7.4
+Kai Mercer,Coastal Town,CM,Demo League,24,2150,18,48,71,47,3.5,8.9
+Milo Grant,Metro City,CM,Demo League,30,2250,16,39,68,53,2.9,7.1

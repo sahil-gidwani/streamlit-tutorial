@@ -1,0 +1,7 @@
+match_id,date,competition,home_team,away_team,home_goals,away_goals,home_xg,away_xg,home_possession,away_possession
+1001,2026-01-10,Demo League,Demo FC,Rival United,2,1,1.85,0.92,56,44
+1002,2026-01-17,Demo League,Metro City,Demo FC,1,1,1.12,1.44,49,51
+1003,2026-01-24,Demo League,Demo FC,Coastal Town,0,0,1.63,0.55,61,39
+1004,2026-01-31,Demo League,Highland SC,Demo FC,2,3,1.97,2.21,47,53
+1005,2026-02-07,Demo League,Demo FC,Capital Rovers,1,2,1.35,1.61,54,46
+1006,2026-02-14,Demo League,Rival United,Demo FC,0,1,0.73,1.38,43,57
