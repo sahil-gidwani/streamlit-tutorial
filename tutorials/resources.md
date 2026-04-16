@@ -2,6 +2,7 @@
 
 ## Official Streamlit Docs
 - Streamlit docs home: https://docs.streamlit.io/
+- 30 Days of Streamlit: https://30days.streamlit.app/
 - Tutorials index: https://docs.streamlit.io/develop/tutorials
 - API reference: https://docs.streamlit.io/develop/api-reference
 - Streamlit agent skills repo: https://github.com/streamlit/agent-skills
